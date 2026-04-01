@@ -140,7 +140,7 @@ synth.onvoiceschanged = () => {
     options.value = obj;
     options.innerText = `${voicesList[obj].name}`;
     datalist.appendChild(options);
-
+console.log(options);
   }
 
 
